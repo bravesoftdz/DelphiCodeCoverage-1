@@ -76,7 +76,8 @@ unfinished form on my harddrive for more than a year. Finally it slipped out.
     <tr><td><code>-v</code></td><td>Show verbose output</td></tr>
     <tr><td><code>-dproj ProjectFile.dproj</code></td><td>Parse the project file for source dirs</td></tr>
     <tr><td><code>-a Param Param2</code></td><td>Parameters to pass on to the application that shall be checked for code coverage. ^ is an escape character</td></tr>
-    <tr><td><code>-lt [filename]</code></td><td>Log events to a text log file. Default file name is: Delphi-Code-Coverage-Debug.log</td></tr>
+        <tr><td>Note: use double escape in batch file.</td><td>Example to run DUnitX tests in a batch and specify exit mode:<code>-a ^^-exit:Continue</code></td></tr>
+<tr><td><code>-lt [filename]</code></td><td>Log events to a text log file. Default file name is: Delphi-Code-Coverage-Debug.log</td></tr>
     <tr><td><code>-lapi</code></td><td>Log events to the Windows API OutputDebugString</td></tr>
     <tr><td><code>-ife</code></td><td>Include File Extension - This will stop "Common.Encodings" being 'converted' to "Common"</td></tr>
     <tr><td><code>-efe</code></td><td>Exclude File Extension - This will 'converted' "Common.Encodings.pas" to "Common.Encodings" (and sadly, "Common.Encodings" to "Common"). This is on by default.</td></tr>
